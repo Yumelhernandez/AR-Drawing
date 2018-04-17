@@ -25,29 +25,25 @@
                                 <rect key="frame" x="169" y="602" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfb-Ca-1HL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnt-Sh-eUg">
                                 <rect key="frame" x="169" y="617" width="36" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="05c-i3-s0F"/>
-                                    <constraint firstAttribute="width" constant="36" id="cRe-cn-xAR"/>
-                                </constraints>
                                 <state key="normal" title="Draw"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nfb-Ca-1HL" secondAttribute="trailing" constant="170" id="6Nq-cK-Ihn"/>
-                            <constraint firstItem="nfb-Ca-1HL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="DJ0-SP-zT1"/>
                             <constraint firstItem="T6n-Yt-rzn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HOU-hz-ucd"/>
                             <constraint firstItem="T6n-Yt-rzn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I42-d8-eFO"/>
                             <constraint firstItem="T6n-Yt-rzn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cPu-md-whl"/>
                             <constraint firstItem="T6n-Yt-rzn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="d6h-PQ-m8A"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nfb-Ca-1HL" secondAttribute="bottom" constant="20" id="fsp-Fd-xIB"/>
+                            <constraint firstItem="Tnt-Sh-eUg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="gYl-Js-rCW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tnt-Sh-eUg" secondAttribute="bottom" constant="20" id="lBb-C8-jVh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tnt-Sh-eUg" secondAttribute="trailing" constant="170" id="sOz-i4-6yl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="draw" destination="nfb-Ca-1HL" id="8Jn-OR-kt4"/>
+                        <outlet property="draw" destination="Tnt-Sh-eUg" id="k73-AP-i0Z"/>
                         <outlet property="sceneView" destination="T6n-Yt-rzn" id="LnV-N0-C3R"/>
                     </connections>
                 </viewController>
